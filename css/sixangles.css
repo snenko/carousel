@@ -1,0 +1,39 @@
+/**
+ * <div class="figure"></div>
+**/
+
+.figure-sixangle {
+    margin-top: -25px;
+    width: 150px;
+    height: 33px;
+    /* background: orange; */
+    position: relative;
+    border-top: 5px double grey;
+    border-bottom: 5px double grey;
+}
+
+.figure-sixangle:before {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    /* background: orange; */
+    -webkit-transform: rotateZ(45deg) skew(8deg, 8deg);
+    top: 3px;
+    left: -14px;
+    border-left: 5px double grey;
+    border-bottom: 5px double grey;
+}
+
+.figure-sixangle:after {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    /* background: orange; */
+    -webkit-transform: rotateZ(45deg) skew(8deg, 8deg);
+    top: 3px;
+    right: -14px;
+    border-top: 5px double grey;
+    border-right: 5px double grey;
+}

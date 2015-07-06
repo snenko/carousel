@@ -1,0 +1,32 @@
+.price {
+    text-align: center;
+    position: relative;
+    top: 6px;
+}
+
+#your-carousel-id .sky-carousel-container .sc-selected {
+    margin-top: -50px;
+}
+
+#your-carousel-id .sky-carousel-container .sc-selected .prew-box{
+    border: 1px solid gray;
+    background-color: white;
+    padding: 32px;
+    margin-left: -30px;
+}
+
+.figure-sixangle:before {
+    background-color: white;
+}
+.figure-sixangle:after {
+    background-color: white;
+}
+.figure-sixangle{
+    top: 54px;
+    left: 11px;
+    background-color: white;
+    visibility: hidden;
+}
+#your-carousel-id .sky-carousel-container .sc-selected .figure-sixangle{
+    visibility: visible;
+}
